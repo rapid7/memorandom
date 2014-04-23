@@ -1,3 +1,7 @@
+=begin
+
+# XXX: This code is unfinished
+
 module Memorandom
 module Plugins
 class RSA < PluginTemplate
@@ -69,3 +73,5 @@ class RSA < PluginTemplate
 end
 end
 end
+
+=end
