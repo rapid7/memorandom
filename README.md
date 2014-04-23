@@ -1,7 +1,7 @@
 Memorandom
 ==
 
-Memorandom provides a command-line utility and class library from extracting secrets from binary files. Common use cases include extracting encryption keys from memory dumps and identifying sensitive data stored in block devices.
+Memorandom provides a command-line utility and class library for extracting secrets from binary files. Common use cases include extracting encryption keys from memory dumps and identifying sensitive data stored in block devices.
 
 
 Installation
@@ -30,7 +30,7 @@ Usage
 Memorandom can search files, block devices, and standard input for interesting things and automatically extract and save these into the specified output directory (--output). This makes it useful for processing memory dumps, network traffic logs, hard disk images, or entire filesystems. 
 
 
-Memorandom uses plugins to scan for specific types of data within the target files. Ny default, all plugins are enabled, which can lead to noisy and slow output. For small files, all plugins are usually fine, but when processing large amounts of data, it is better to limit the search to specific plugins.
+Memorandom uses plugins to scan for specific types of data within the target files. By default, all plugins are enabled, which can lead to noisy and slow output. For small files, all plugins are usually fine, but when processing large amounts of data, it is better to limit the search to specific plugins.
 
 The example below will only scan for PEM-encoded data in the target files
 
