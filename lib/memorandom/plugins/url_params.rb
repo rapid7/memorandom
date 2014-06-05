@@ -2,8 +2,8 @@ module Memorandom
 module Plugins
 class URLParams < PluginTemplate
 
-  @@description = "This plugin looks for interesting URL parameters and POST data"
-  @@confidence  = 0.50
+  @description = "This plugin looks for interesting URL parameters and POST data"
+  @confidence  = 0.50
 
   # Scan takes a buffer and an offset of where this buffer starts in the source
   def scan(buffer, source_offset)

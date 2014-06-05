@@ -2,8 +2,8 @@ module Memorandom
 module Plugins
 class AES < PluginTemplate
 
-  @@description = "This plugin looks for AES encryption keys (128/256)"
-  @@confidence  = 0.50
+  @description = "This plugin looks for AES encryption keys (128/256)"
+  @confidence  = 0.50
 
   #
   # This code is a ruby implementation of AESKeyFind (C) 2008-07-18 Nadia Heninger and Ariel Feldman
