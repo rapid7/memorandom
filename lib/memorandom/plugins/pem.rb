@@ -2,8 +2,8 @@ module Memorandom
 module Plugins
 class PEM < PluginTemplate
 
-  @@description = "This plugin looks for PEM-encoded data (keys, certificates, crls, etc)"
-  @@confidence  = 0.90
+  @description = "This plugin looks for PEM-encoded data (keys, certificates, crls, etc)"
+  @confidence  = 0.90
 
   # Scan takes a buffer and an offset of where this buffer starts in the source
   def scan(buffer, source_offset)

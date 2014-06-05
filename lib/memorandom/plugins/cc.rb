@@ -5,8 +5,8 @@ class CC < PluginTemplate
   # Use the credit_card_validator gem for luhn checks and card verification
   require 'credit_card_validator'
 
-  @@description = "This plugin looks for credit card numbers"
-  @@confidence  = 0.10
+  @description = "This plugin looks for credit card numbers"
+  @confidence  = 0.10
 
   # Scan takes a buffer and an offset of where this buffer starts in the source
   def scan(buffer, source_offset)

@@ -1,8 +1,8 @@
 module Memorandom
 class PluginTemplate
 
-  @@description = "This is an unconfigured plugin using the base template"
-  @@confidence  = 0.80
+  @description = "This is an unconfigured plugin using the base template"
+  @confidence  = 0.80
 
   attr_accessor :scanner, :hits
 
@@ -27,11 +27,11 @@ class PluginTemplate
   end
 
   def self.description
-    @@description
+    @description
   end
 
   def self.confidence
-    @@confidence
+    @confidence
   end
 
   def description

@@ -2,8 +2,8 @@ module Memorandom
 module Plugins
 class Hashes < PluginTemplate
 
-  @@description = "This plugin looks for common hash formats"
-  @@confidence  = 0.10
+  @description = "This plugin looks for common hash formats"
+  @confidence  = 0.10
 
   # Scan takes a buffer and an offset of where this buffer starts in the source
   def scan(buffer, source_offset)
